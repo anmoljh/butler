@@ -6,4 +6,4 @@ postgres.password: butler
 postgres.pass: butler
 postgres.max_connections: 1550
 postgres.listen_addresses: "*"
-postgres.shared_buffers: 4GB
+postgres.shared_buffers: 1GB
