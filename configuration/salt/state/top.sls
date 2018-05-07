@@ -8,15 +8,6 @@ base:
     - telegraf
   'G@roles:consul-ui':
     - consul.ui
-  'G@roles:monitoring-server':
-    - influxdb
-    - grafana
-    - kapacitor
-    - chronograf
-    - salt.api
-    - salt.pepper
-    - butler.healing-agent
-    - terraform
   'G@roles:worker':
     - git
     - celery
@@ -59,13 +50,3 @@ base:
     - butler.web
   'G@roles:salt-master':
     - salt.api
-
-
-  
-    
-  
-    
-    
-
-
-    
