@@ -44,9 +44,5 @@ base:
     - celery
   'G@roles:R':
     - R
-  'G@roles:butler-web':
-    - git
-    - nginx
-    - butler.web
   'G@roles:salt-master':
     - salt.api
