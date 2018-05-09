@@ -49,8 +49,6 @@ variable "main_network_id" {
 	default=""
 }
 
-}
-
 variable "floatingip_pool" {
 	default = ""
 }
